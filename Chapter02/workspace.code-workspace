@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\azure-voting-app-redis"
+		},
+		{
+			"path": "..\\..\\Docker-example"
+		}
+	],
+	"settings": {}
+}

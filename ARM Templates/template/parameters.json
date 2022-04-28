@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "value": "hanksonaks"
+        },
+        "location": {
+            "value": "centralus"
+        },
+        "dnsPrefix": {
+            "value": "hanksonaks-dns"
+        },
+        "kubernetesVersion": {
+            "value": "1.22.6"
+        },
+        "networkPlugin": {
+            "value": "kubenet"
+        },
+        "enableRBAC": {
+            "value": true
+        },
+        "enablePrivateCluster": {
+            "value": false
+        },
+        "enableHttpApplicationRouting": {
+            "value": false
+        },
+        "enableAzurePolicy": {
+            "value": false
+        },
+        "enableSecretStoreCSIDriver": {
+            "value": false
+        },
+        "vmssNodePool": {
+            "value": true
+        },
+        "workspaceName": {
+            "value": "DefaultWorkspace-064a722e-2ffe-4301-b22f-0fb45e6842da-WUS"
+        },
+        "omsWorkspaceId": {
+            "value": "/subscriptions/064a722e-2ffe-4301-b22f-0fb45e6842da/resourceGroups/DefaultResourceGroup-WUS/providers/Microsoft.OperationalInsights/workspaces/DefaultWorkspace-064a722e-2ffe-4301-b22f-0fb45e6842da-WUS"
+        },
+        "workspaceRegion": {
+            "value": "westus"
+        }
+    }
+}
