@@ -3,13 +3,13 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "resourceName": {
-            "value": "hanksonaks"
+            "value": "handsonaks"
         },
         "location": {
             "value": "centralus"
         },
         "dnsPrefix": {
-            "value": "hanksonaks-dns"
+            "value": "handsonaks-dns"
         },
         "kubernetesVersion": {
             "value": "1.22.6"
